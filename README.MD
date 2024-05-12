@@ -2,6 +2,7 @@
 Please see video instruction : 
 
 ## PIN Confiration
+```bash
 ESP32 PIN | TFT PIN
 3v3    ->  VCC
 GND    ->  GND
@@ -9,7 +10,7 @@ GPIO2  ->  BLK
 GPIO4  ->  RES
 GPIO18 ->  SCL
 GPIO23 ->  SDA
-
+```
 
 ## Feedback
 
