@@ -4,8 +4,8 @@
 #include "time.h"
 
 // WiFi connection
-const char ssid[] = "AdityaJr";               // your wifi SSID
-const char pass[] = "admin123.";              //  Your WiFi password
+const char ssid[] = "xxxxxx";               // your wifi SSID
+const char pass[] = "xxxxxx";              //  Your WiFi password
 const char* NTP_POOL1 = "0.id.pool.ntp.org";  //-->> NTP Server 1
 const char* NTP_POOL2 = "1.id.pool.ntp.org";  //-->> NTP Server 1
 const long utcOffsetInSeconds = 25200;        //-->> Example : Indonesia GMT is +7.00  So 7*3600 = 25200
@@ -28,7 +28,7 @@ void setup() {
 
   Serial.println("Initialized TFT ...");
   tft.init();
-  tft.setRotation(2);
+  // tft.setRotation(2);
   tft.fillScreen(TFT_BLACK);
   Serial.println("Initialized AP ...");
 
